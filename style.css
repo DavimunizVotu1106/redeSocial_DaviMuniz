@@ -1,92 +1,89 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    margin: 0;
-    background: linear-gradient(to bottom, rgb(131, 10, 10), red)
+  margin: 0;
+  background: linear-gradient(to bottom, rgb(131, 10, 10), red);
 }
 
 .principal {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
 .esquerda {
-    width: 15%;
-    background: linear-gradient(to bottom, rgb(131, 10, 10), red);
-    border: 3px solid rgb(131, 10, 10);
+  width: 15%;
+  background: linear-gradient(to bottom, rgb(131, 10, 10), red);
+  border: 3px solid rgb(131, 10, 10);
 }
 
 .esquerda img {
-    height: 200px;
-    border-radius: 200px;
-    padding: 20px;
+  height: 200px;
+  border-radius: 200px;
+  padding: 20px;
 }
 
 .esquerda p {
-    color: white;
-    padding: 10px;
-    transform: translateX(78px);
+  color: white;
+  padding: 10px;
+  transform: translateX(78px);
 }
 
 .esquerda ul {
-    color: white;
-    padding: 40px;
-    font-size: 25px;
-    margin: 20px;
-    line-height: 50px;
+  color: white;
+  padding: 40px;
+  font-size: 25px;
+  margin: 20px;
+  line-height: 50px;
 }
 
 .direita {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    flex: 1;
-    background: linear-gradient(to top, rgb(131, 10, 10), red);
-
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex: 1;
+  background: linear-gradient(to top, rgb(131, 10, 10), red);
 }
 
 .direita img {
-    max-width: none;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
+  max-width: none;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .texto {
-    color: white;
-    position: absolute;
-    font-size: 45px;
-    font-weight: bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display:flex;
-    padding: 5px;
-    transform:translateY(240px)
+  color: white;
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  padding: 5px;
+  transform: translateY(240px);
 }
 
 .texto1 p {
-    color: white;
-    padding: 20px;
-    font-size: 25px;
-    text-align: justify;
-
-
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+  text-align: justify;
 }
 
 .direita span {
-    color: rgb(230, 99, 99);
-    padding: 20px;
+  color: rgb(230, 99, 99);
+  padding: 20px;
 }
 
 .rodape {
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    margin-top: auto;
-    background: linear-gradient(to right, rgb(131, 10, 10), red) ;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-top: auto;
+  background: linear-gradient(to right, rgb(131, 10, 10), red);
 }
